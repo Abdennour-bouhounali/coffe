@@ -36,6 +36,7 @@ export function SignatureDrinksSection() {
                 className="aspect-[4/5] rounded-[45%_45%_1.75rem_1.75rem] transition-transform duration-700 group-hover:-translate-y-2"
                 label={`0${index + 1} · ${drink.name}`}
                 tone={drink.tone}
+                src={drink.image}
               />
               <div className="flex items-start justify-between gap-4 pt-5">
                 <div>

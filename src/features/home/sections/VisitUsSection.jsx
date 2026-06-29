@@ -37,6 +37,7 @@ export function VisitUsSection() {
           className="aspect-[4/3] min-h-full lg:aspect-auto"
           label="Paris 10e"
           tone="coffee"
+          src="/images/interieur-01.png"
         />
 
         <div className="p-8 sm:p-12 lg:p-16 flex flex-col justify-between">

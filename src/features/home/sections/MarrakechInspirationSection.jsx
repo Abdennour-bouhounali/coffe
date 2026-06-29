@@ -17,6 +17,7 @@ export function MarrakechInspirationSection() {
               className="aspect-[3/4] rounded-t-full"
               label="Couleurs"
               tone="terracotta"
+              src="/images/luxury-brunch-table.png"
             />
           </Reveal>
           <Reveal delay={0.12}>
@@ -25,6 +26,7 @@ export function MarrakechInspirationSection() {
               className="aspect-[3/4] rounded-b-full"
               label="Matières"
               tone="saffron"
+              src="/images/interieur-01.png"
             />
           </Reveal>
         </div>

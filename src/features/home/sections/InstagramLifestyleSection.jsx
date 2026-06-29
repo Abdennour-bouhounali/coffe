@@ -44,6 +44,7 @@ export function InstagramLifestyleSection() {
             key={item.id}
             label={item.label}
             tone={item.tone}
+            src={item.image}
           />
         ))}
       </Reveal>

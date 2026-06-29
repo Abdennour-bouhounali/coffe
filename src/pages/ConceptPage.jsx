@@ -50,6 +50,7 @@ export default function ConceptPage() {
             className="aspect-[4/5] rounded-t-full"
             label="Paris · Marrakech"
             tone="terracotta"
+            src="/images/hero-maison-saha.png"
           />
           <SectionHeading
             eyebrow="Le point de départ"
@@ -93,12 +94,14 @@ export default function ConceptPage() {
               className="aspect-[3/4] rounded-[1.5rem]"
               label="À boire"
               tone="apricot"
+              src="/images/rose-latte.png"
             />
             <EditorialMedia
               alt="Brunch signature"
               className="mt-12 aspect-[3/4] rounded-[1.5rem]"
               label="À partager"
               tone="saffron"
+              src="/images/luxury-brunch-table.png"
             />
           </div>
         </div>

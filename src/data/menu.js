@@ -322,6 +322,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "matcha",
     tone: "apricot",
+    image: "/images/iced-strawberry-matcha.png",
   },
   {
     id: "matcha-latte",
@@ -331,6 +332,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "matcha",
     tone: "pistachio",
+    image: "/images/matcha-latte.png",
   },
   {
     id: "vanilla-matcha",
@@ -340,6 +342,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "matcha",
     tone: "cream",
+    image: "/images/vanilla-matcha.png",
   },
   {
     id: "pistachio-matcha",
@@ -441,6 +444,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "cold",
     tone: "saffron",
+    image: "/images/jus-orange-presse-bio.png",
   },
   {
     id: "glow-juice-bio",
@@ -450,6 +454,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "cold",
     tone: "pistachio",
+    image: "/images/glow-juice-bio.png",
   },
   {
     id: "beldi-the-glace-maison",
@@ -472,6 +477,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "cold",
     tone: "cream",
+    image: "/images/citronnade-maison.png",
   },
   {
     id: "pistachio-latte",
@@ -563,6 +569,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "not-coffee",
     tone: "saffron",
+    image: "/images/chai-latte.png",
   },
   {
     id: "golden-latte",
@@ -572,6 +579,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "not-coffee",
     tone: "saffron",
+    image: "/images/golden-latte.png",
   },
   {
     id: "blue-cloud-smoothie",
@@ -593,6 +601,7 @@ export const menuProducts = [
     collection: "drinks",
     categoryId: "smoothies",
     tone: "apricot",
+    image: "/images/pink-cloud-smoothie.png",
   },
 ].map((product) => {
   const category = menuCategoryDefinitions.find(
