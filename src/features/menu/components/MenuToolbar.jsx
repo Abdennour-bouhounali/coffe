@@ -121,7 +121,7 @@ export function MenuToolbar({
                 active={collection === item.id}
                 key={item.id}
                 onClick={() => setCollection(item.id)}
-                layoutId="collection-active-pill"
+                layoutId={`collection-pill-${item.id}`}
                 icon={item.id === "brunch" ? Egg : item.id === "drinks" ? Coffee : Sparkles}
               >
                 {item.label}
@@ -141,7 +141,7 @@ export function MenuToolbar({
                 active={badge === item.id}
                 key={item.id}
                 onClick={() => setBadge(item.id)}
-                layoutId="badge-active-pill"
+                layoutId={`badge-pill-${item.id}`}
                 icon={item.id === "popular" ? Flame : item.id === "vegetarian" ? Leaf : item.id === "new" ? Sparkles : null}
               >
                 {item.label}
@@ -159,7 +159,7 @@ export function MenuToolbar({
             <FilterChip
               active={category === "all"}
               onClick={() => setCategory("all")}
-              layoutId="category-active-pill"
+              layoutId="category-pill-all"
               icon={Sparkles}
             >
               Tout voir
@@ -169,7 +169,7 @@ export function MenuToolbar({
                 active={category === item.id}
                 key={item.id}
                 onClick={() => setCategory(item.id)}
-                layoutId="category-active-pill"
+                layoutId={`category-pill-${item.id}`}
                 icon={categoryIcons[item.id]}
               >
                 {item.label}

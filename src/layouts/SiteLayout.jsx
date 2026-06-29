@@ -15,14 +15,13 @@ export function SiteLayout() {
       <SkipLink />
       <RouteScrollManager />
       <Header />
-      <AnimatePresence mode="wait">
+      <AnimatePresence>
         <motion.main
-          animate="animate"
-          exit="exit"
-          id="contenu"
-          initial="initial"
           key={location.pathname}
-          variants={pageTransition}
+          id="contenu"
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0, transition: { duration: 0.45, ease: [0.22, 1, 0.36, 1] } }}
+          exit={{ opacity: 0, transition: { duration: 0.2, ease: "easeOut" } }}
         >
           <Outlet />
         </motion.main>
